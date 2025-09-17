@@ -1,3 +1,15 @@
+/*
+A -> I = E
+E -> P O P | P
+O -> + | - | * | / | **
+P -> I | L | UI | UL | (E)
+U -> + | - | !
+I -> C | CI
+C -> a | b | ... | y | z
+L -> D | DL
+D -> 0 | 1 | ... | 8 | 9
+*/
+
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -216,4 +228,5 @@ static bool A()
 		}
 		
 		return false;
+
 	}
